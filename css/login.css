@@ -3,25 +3,25 @@
     padding: 0px;
     box-sizing: border-box;
 }
-.signup-container{
+.login-container{
     width: 100%;
     height: 100%;
     border-radius: 0px;
     position: relative;
     display: flex;
 }
-.signup-left{
+.login-left{
     height: 100vh;
     width: 60vw;
-    background-color: #f8f8f8;
+    background-color: #1D195A;
     display: flex;
     align-items: center;
 }
-.signup-left img{
+.login-left img{
     margin-left: 50%;
     transform: translate(-50%);
 }
-.signup-right{
+.login-right{
     display: flex;
     flex-direction: column;
     padding-top: 110px;
@@ -70,7 +70,7 @@
     margin-left: -30px;
 }
 .register{
-    background-color: #EAA451;
+    background-color: #1D195A;
     color: #FFFFFF;
     width: 200px;
     height: 40px;
@@ -78,14 +78,4 @@
     border: 1px solid #FFFFFF;
     font-weight: 600;
     margin-left: 50px;
-    margin-bottom: 10px;
-}
-.forgot-pass{
-    width: 200px;
-    height: 40px;
-    border-radius: 15px;
-    border: 1px solid #FFFFFF;
-    font-weight: 600;
-    margin-left: 50px;
-    color: darkgrey
 }
