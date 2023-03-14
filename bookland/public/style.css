@@ -1,0 +1,13 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.homepage_v3 {
+    /* height: 8661px; */
+    width: 100%;
+    border-radius: 0px;
+    position: relative;
+    background: #FFFFFF;
+}
