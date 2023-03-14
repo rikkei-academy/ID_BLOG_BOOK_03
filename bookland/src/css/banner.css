@@ -42,8 +42,8 @@ body {
     background: #EEE;
 }
 
-.gallery-cell {
-    width: 313px;
+/* .gallery-cell {
+    width: 100;
     height: 640.76px;
     margin-right: 10px;
     display: flex;
@@ -51,7 +51,7 @@ body {
     align-items: center;
 }
 
-/* cell number */
+
 .gallery-cell:before {
     display: block;
     text-align: center;
@@ -86,7 +86,7 @@ body {
     line-height: 24px;
     color: #EAA451;
 }
-
+ */
 .gallery-cell button {
     width: 229px;
     height: 60px;
@@ -102,4 +102,25 @@ body {
     font-size: 18px;
     line-height: 27px;
     color: #FFFFFF;
+}
+.sliceCenter{
+    width: 10%;
+    height: 770px;
+    margin: 0 auto;
+ 
+}
+.gallery-cell img{
+    width: 313px;
+    height: 442.15px;
+}
+.slick-track{
+    width: 100% !important;
+}
+.gallery-cell {
+    width: 100%;
+    height: 640.76px;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
