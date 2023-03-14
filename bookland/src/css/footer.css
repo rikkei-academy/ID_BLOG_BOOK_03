@@ -1,0 +1,150 @@
+.footer1 {
+    margin: 56px 0px 0px 95px;
+}
+
+.footer1Title {
+    height: 30px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #363848;
+}
+
+.footer1Body {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+}
+
+.footer1Group {
+    width: 203px;
+    height: 200px;
+}
+
+.footer1Item {
+    height: 24px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #363848;
+    margin: 5px 0px 5px 0px;
+}
+
+#showOthers {
+    color: #EAA451;
+}
+
+.footer2 {
+    margin: 56px 0px 0px 95px;
+    display: flex;
+}
+
+.footer2Left {
+    width: 40%;
+}
+
+.footer2Left p {
+    height: 72px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #363848;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.iconList {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer2Right {
+    margin-left: 50px;
+}
+
+.getIn {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #11142D;
+}
+
+.footer2RightBody {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer2RightBody1 {
+    margin-top: 30px;
+}
+
+.footer2Content {
+    display: flex;
+    margin: 20px 0px;
+}
+
+.footer2Content i {
+    color: #EAA451;
+    margin-top: 5px;
+}
+
+.footer2Content span {
+    margin-left: 5px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #11142D;
+}
+
+.footer2RightBody2 img {
+    width: 398px;
+    height: 158px;
+    background: #C4C4C4;
+    border-radius: 14px;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.footer3 {
+    margin: 56px 0px 0px 95px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer3left {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #363848;
+}
+
+.footer3Right {
+    margin-right: 60px;
+}
+
+#heart {
+    color: red;
+}
+
+.footer3Right span {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
+    text-align: right;
+    color: #363848;
+}
