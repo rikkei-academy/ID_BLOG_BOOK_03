@@ -6,11 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
         integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="../css/homegape.css">
+    <link rel="stylesheet" href="../css/detail.css">
     <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
 </head>
 
@@ -18,7 +17,7 @@
     <div class="homepage_v3">
         <div class="NAV_v4">
 
-            <img src="../image/logo.png" alt="" class="logo">
+            <img src="../image/logo1.png" alt="" class="logo">
             <div class="searchBox">
                 <div class="menus">
                     <p id="menus">MENUS</p>
@@ -27,196 +26,205 @@
                 <i class="fa-solid fa-magnifying-glass"></i>
             </div>
             <div class="navLeft">
-                <button class="loginBtn">Log in</button>
-                <button class="signupBtn">Sign up</button>
+                <div class="likeContainer">
+                    <i class="fa-regular fa-heart"></i>
+                    <div class="likeNum">21</div>
+                </div>
+                <div class="cartContainer">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <div class="cartNum">19</div>
+                </div>
+                <div class="userStt">
+                    <img src="" alt="">
+                    <div class="user">
+                        <div class="userName">Brian</div>
+                        <div class="userMail">briancorner@mail.com</div>
+                    </div>
+                </div>
             </div>
-        </div>
-        <div class="mainHero">
-            <div class="product">
-                <marquee behavior="" direction="">
-                    <div class="marquee">
-                        <div class="product1">
-                            <img src="" alt="" class="productItem1">
-                            <div class="product1Info">
-                                <p class="product1Title">Think and Grow Rich</p>
-                                <p class="author1">by Napoleon Hill</p>
-                                <div class="product1Stt">
-                                    <span class="product1Price">$9.5</span>
-                                    <div class="starContainer">
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="product2">
-                            <img src="" alt="" class="productItem1">
-                            <div class="product2Info">
-                                <p class="product2Title">Business & Strategy</p>
-                                <p class="author2">by Jamet Sigh</p>
-                                <div class="product2Stt">
-                                    <span class="product2Price">$12.0</span>
-                                    <div class="starContainer">
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
 
-                                    </div>
-                                </div>
+        </div>
+        <div class="productMain">
+            <img src="" alt="">
+            <div class="productMainInfo">
+                <p>Think and Grow Rich</p>
+                <div class="subInfo">
+                    <div class="subLeft">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star" id="star5"></i>
+                        <p>4.0</p>
+                    </div>
+                    <div class="subRight">
+                        <div class="subRight1">
+                            <div class="totalReview">
+                                <i class="fa-solid fa-message"></i>
+                                <p>235 Reviews</p>
+                            </div>
+                            <div class="totalLike">
+                                <i class="fa-solid fa-thumbs-up"></i>
+                                <p>456k Like</p>
                             </div>
                         </div>
+                        <div class="subRight2">
+                            <i class="fa-brands fa-square-facebook" id="fb"></i>
+                            <i class="fa-brands fa-square-twitter" id="tw"></i>
+                            <i class="fa-brands fa-line" id="line"></i>
+                            <i class="fa-solid fa-envelope" id="mail1"></i>
+                        </div>
                     </div>
-                </marquee>
-            </div>
-            <div class="heading">
-                <div class="headingText">
-                    <div class="bestSeller">BEST SELLER</div>
-                    <div class="thinkAndGrow">Think and Grow Rich</div>
-                    <div class="allow">
-                        <span class="napoleonHill">Napoleon Hill</span>
-                        <span class="bAndS">Business and Strategy</span>
+                </div>
+                <div class="productStt">
+                    <div class="productSttLeft">
+                        <img src="" alt="">
+                        <div class="authorInfo">
+                            <p>Writen by</p>
+                            <span>Napoleon Rich</span>
+                        </div>
+                        <div class="publish">
+                            <p>Publisher</p>
+                            <span>Printarea Studios</span>
+                        </div>
+                        <div class="publishYear">
+                            <p>Year</p>
+                            <span>2019</span>
+                        </div>
                     </div>
-                    <div class="lorem">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum, rem ea. Dolores
-                        sit, perferendis fugit explicabo qui vitae laboriosam, possimus dolore saepe aut error tenetur!
-                        Unde dolorem reprehenderit voluptatibus commodi.</div>
+                    <div class="productSttRight">
+                        <button class="freeShipping">
+                            <i class="fa-solid fa-bolt-lightning"></i>
+                            <p>FREE SHIPPING</p>
+                        </button>
+                        <button class="inStock">
+                            <i class="fa-solid fa-shield-halved"></i>
+                            <p>IN STOCKS</p>
+                        </button>
+                    </div>
+                </div>
+                <div class="description">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                        laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                        voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+                        non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
+                        laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto
+                        beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut
+                        odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem
+                    </p>
+                </div>
+                <div class="addToCartContainer">
                     <div class="priceContainer">
-                        <span class="price">$9.5</span>
-                        <span class="defaultPrice">$12.0</span>
-                        <button class="sale">20% OFF</button>
+                        <p class="real-price">$15,63</p>
+                        <p class="origin-price">$16,99</p>
+                        <button>2%</button>
                     </div>
-                    <div class="btnContainer">
-                        <button class="buyNow">Buy Now</button>
-                        <button class="seeDetails">See details</button>
-                    </div>
-                </div>
-                <div class="mainFooter">
-                    <p class="ourPartner">Our partner</p>
-                    <div class="ourPartnerContainer">
-                        <img src="../image/Group 7.png" alt="" class="partner1">
-                        <img src="../image/Group 9.png" alt="" class="partner2">
-                        <img src="../image/Group 11.png" alt="" class="partner3">
+                    <div class="atcBtnContainer">
+                        <div class="quantity-container">
+                            <i class="fa-solid fa-minus"></i>
+                            <p>1</p>
+                            <i class="fa-solid fa-plus"></i>
+                        </div>
+                        <button>
+                            <i class="fa-solid fa-cart-shopping"></i> Add to cart
+                        </button>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="brandLogos">
-            <div class="clientLogo">
-                <img src="../image/Group 7.png" alt="">
-                <img src="../image/Boosst.png" alt="">
-                <img src="../image/Group 9.png" alt="">
-                <img src="../image/Group 13.png" alt="">
-                <img src="../image/Group 11.png" alt="">
+        <div class="product-detail">
+            <div class="product-detail-left">
+                <table>
+                    <thead>
+                        <tr>
+                            <td class="content-left">Details Product</td>
+                            <td class="content-right">Customer Reviews</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="p">Book Title</td>
+                            <td class="p-info">Think and Grow Rich</td>
+                        </tr>
+                        <tr>
+                            <td class="p">Author</td>
+                            <td class="p-info">Napoleon Rich</td>
+                        </tr>
+                        <tr>
+                            <td class="p">ISBN</td>
+                            <td class="p-info">121341381648 (ISBN13: 121341381648)</td>
+                        </tr>
+                        <tr>
+                            <td class="p">Ediiton Language</td>
+                            <td class="p-info">English</td>
+                        </tr>
+                        <tr>
+                            <td class="p">Book Format</td>
+                            <td class="p-info">Paperback, 450 Pagesh</td>
+                        </tr>
+                        <tr>
+                            <td class="p">Date Published</td>
+                            <td class="p-info">August 10th 2019</td>
+                        </tr>
+                        <tr>
+                            <td class="p">Publisher</td>
+                            <td class="p-info">Wepress Inc.</td>
+                        </tr>
+                        <tr>
+                            <td class="p">Tags</td>
+                            <td class="p-info">
+                                <button>Drama</button>
+                                <button>Adventure</button>
+                                <button>Survival</button>
+                                <button>Biography</button>
+                                <button>Trending2020</button>
+                                <button>Bestseller</button>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
-        </div>
-        <div class="banner">
-            <p class="rcmt">Recommended For You</p>
-            <p class="lorem2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris </p>
-            <div class="sliceCenter">
-                <div class="gallery js-flickity" data-flickity-options='{ "wrapAround": true }'>
-                    <div class="gallery-cell">
-                        <img src="" alt="">
-                        <p class="galleryTitle">Thunder Stunt</p>
-                        <p class="galleryPrice">$18,78</p>
-                        <button><span><i class="fa-solid fa-cart-shopping"></i> Add to cart</span></button>
-                    </div>
-                    <div class="gallery-cell">
-                        <img src="" alt="">
-                        <p class="galleryTitle">Thunder Stunt</p>
-                        <p class="galleryPrice">$18,78</p>
-                        <button><span><i class="fa-solid fa-cart-shopping"></i> Add to cart</span></button>
-                    </div>
-                    <div class="gallery-cell">
-                        <img src="" alt="">
-                        <p class="galleryTitle">Thunder Stunt</p>
-                        <p class="galleryPrice">$18,78</p>
-                        <button><span><i class="fa-solid fa-cart-shopping"></i> Add to cart</span></button>
-                    </div>
-                    <div class="gallery-cell">
-                        <img src="" alt="">
-                        <p class="galleryTitle">Thunder Stunt</p>
-                        <p class="galleryPrice">$18,78</p>
-                        <button><span><i class="fa-solid fa-cart-shopping"></i> Add to cart</span></button>
-                    </div>
-                    <div class="gallery-cell">
-                        <img src="" alt="">
-                        <p class="galleryTitle">Thunder Stunt</p>
-                        <p class="galleryPrice">$18,78</p>
-                        <button><span><i class="fa-solid fa-cart-shopping"></i> Add to cart</span></button>
+            <div class="product-detail-right">
+                <p>Related Books</p>
+                <div class="book">
+                    <img src="" alt="">
+                    <div class="book-info">
+                        <p id="relatedTitle">Terrible Madness</p>
+                        <p id="relatedTags">THRILLE, DRAMA, HORROR</p>
+                        <div class="related-price">
+                            <p id="relatedPrice">$45.4</p>
+                            <p id="firstPrice">$98.4</p>
+                        </div>
+                        <button><i class="fa-solid fa-cart-shopping"></i>Add to cart</button>
                     </div>
                 </div>
-            </div>
-        </div>
-        <div class="choose">
-            <div class="choose1">
-                <img src="../image/icon (1).png" alt="" class="chooseImage">
-                <p class="quickDeli">Quick Delivery</p>
-                <p class="quickDeliInfo">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                </p>
-            </div>
-            <div class="choose1">
-                <img src="../image/icon.png" alt="" class="chooseImage">
-                <p class="quickDeli">Secure Payment</p>
-                <p class="quickDeliInfo">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                </p>
-            </div>
-            <div class="choose1">
-                <img src="../image/icon (2).png" alt="" class="chooseImage">
-                <p class="quickDeli">Best Quality</p>
-                <p class="quickDeliInfo">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                </p>
-            </div>
-            <div class="choose1">
-                <img src="../image/icon (3).png" alt="" class="chooseImage">
-                <p class="quickDeli">Return Guarantee</p>
-                <p class="quickDeliInfo">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                </p>
-            </div>
-        </div>
-        <div class="bookOnSaleContainer">
-            <p class="bookOnSale">Book On Sale</p>
-            <div class="bookSale">
-                <div class="gallery js-flickity" data-flickity-options='{ "wrapAround": true }'>
-                    <div class="booksSale">
-                        <img src="" alt="">
+                <div class="book">
+                    <img src="" alt="">
+                    <div class="book-info">
+                        <p id="relatedTitle">Terrible Madness</p>
+                        <p id="relatedTags">THRILLE, DRAMA, HORROR</p>
+                        <div class="related-price">
+                            <p id="relatedPrice">$45.4</p>
+                            <p id="firstPrice">$98.4</p>
+                        </div>
+                        <button><i class="fa-solid fa-cart-shopping"></i>Add to cart</button>
                     </div>
-                    <div class="booksSale"></div>
-                    <div class="booksSale"></div>
-                    <div class="booksSale"></div>
-                    <div class="booksSale"></div>
-                    <div class="booksSale"></div>
-                    <div class="booksSale"></div>
                 </div>
-            </div>
-        </div>
-        <div class="featureProductContainer">
-            <div class="featureProduct">Feature Product</div>
-            <div class="featureProductInfo">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                ullamco laboris </div>
-            <div class="featureProductSlice">
-                <div class="gallery js-flickity" data-flickity-options='{ "wrapAround": true }'>
-                    <div class="featureProductItem"></div>
-                    <div class="featureProductItem"></div>
-                    <div class="featureProductItem"></div>
-                    <div class="featureProductItem"></div>
-                </div>
-            </div>
-        </div>
-        <div class="specialContainer">
-            <p class="special">Special Offers</p>
-            <div class="specialSlice">
-                <div class="gallery js-flickity" data-flickity-options='{ "wrapAround": true }'>
-                    <div class="specialItem"></div>
-                    <div class="specialItem"></div>
-                    <div class="specialItem"></div>
-                    <div class="specialItem"></div>
-                    <div class="specialItem"></div>
-                    <div class="specialItem"></div>
-                    <div class="specialItem"></div>
+                <div class="book">
+                    <img src="" alt="">
+                    <div class="book-info">
+                        <p id="relatedTitle">Terrible Madness</p>
+                        <p id="relatedTags">THRILLE, DRAMA, HORROR</p>
+                        <div class="related-price">
+                            <p id="relatedPrice">$45.4</p>
+                            <p id="firstPrice">$98.4</p>
+                        </div>
+                        <button><i class="fa-solid fa-cart-shopping"></i>Add to cart</button>
+                    </div>
                 </div>
             </div>
         </div>
@@ -295,21 +303,6 @@
                 </div>
             </div>
         </div>
-        <div class="letestNewsContainer">
-            <div class="letestNews">Letest News</div>
-            <p class="letestInfo">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                incididunt ut labore et dolore magna aliqua </p>
-            <div class="letestNewsList">
-                <div class="letest"></div>
-                <div class="letest"></div>
-                <div class="letest"></div>
-                <div class="letest"></div>
-            </div>
-            <button class="letestBtn">
-                <p>View More</p>
-            </button>
-        </div>
-
         <div class="storeContainer">
             <div class="storeItem">
                 <img src="../image/Vector.png" alt="" class="storeImg">
@@ -432,7 +425,6 @@
             </div>
         </div>
 </body>
-
 <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
 
 </html>
