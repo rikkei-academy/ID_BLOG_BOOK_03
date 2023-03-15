@@ -1,0 +1,81 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.signup-container{
+    width: 100%;
+    height: 100%;
+    border-radius: 0px;
+    position: relative;
+    display: flex;
+}
+.signup-left{
+    height: 100vh;
+    width: 60vw;
+    background-color: #1D195A;
+    display: flex;
+    align-items: center;
+}
+.signup-left img{
+    margin-left: 50%;
+    transform: translate(-50%);
+}
+.signup-right{
+    display: flex;
+    flex-direction: column;
+    padding-top: 110px;
+    padding-left: 90px;
+}
+.full-name{
+    margin: 20px 0px;
+}
+#fullName{
+    height: 45px;
+    width: 300px;
+    border-radius: 15px;
+    border: 1px solid darkgray;
+    padding-left: 20px;
+}
+.fa-user{
+    color: darkgray;
+    margin-left: -30px;
+}
+.email{
+    margin: 20px 0px;
+}
+#email{
+    height: 45px;
+    width: 300px;
+    border-radius: 15px;
+    border: 1px solid darkgray;
+    padding-left: 20px;
+}
+.fa-envelope{
+    color: darkgray;
+    margin-left: -30px;
+}
+.password{
+    margin: 20px 0px;
+}
+#password{
+    height: 45px;
+    width: 300px;
+    border-radius: 15px;
+    border: 1px solid darkgray;
+    padding-left: 20px;
+}
+.fa-lock{
+    color: darkgray;
+    margin-left: -30px;
+}
+.register{
+    background-color: #1D195A;
+    color: #FFFFFF;
+    width: 200px;
+    height: 40px;
+    border-radius: 15px;
+    border: 1px solid #FFFFFF;
+    font-weight: 600;
+    margin-left: 50px;
+}
