@@ -1,0 +1,104 @@
+.NAV_v4 {
+    background-color: #1D195A;
+    height: 130px;
+    width: 100%;
+    left: 0px;
+    top: 0px;
+    border-radius: [object Object]px;
+    border-width: 0px, 0px, 0px, 0px;
+  
+    border-style: solid;
+    border-color: #1D195A;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+
+.logo {
+    height: 64px;
+    width: 220.6207733154297px;
+    border-radius: 0px;
+    transform: translate(0%, 50%);
+    cursor: pointer;
+}
+
+.searchBox {
+    display: flex;
+    width: 506px;
+    height: 60px;
+    top: 50%;
+    transform: translate(0%, 50%);
+    background-color: #6C5DD3;
+    border-radius: 50px;
+    border: 1px solid #1D195A;
+
+}
+
+.menus {
+    height: 60px;
+    width: 156px;
+    color: #E5CCB8;
+    font-weight: 700;
+    line-height: 60px;
+    left: 50px;
+    background-color: #1F1B66;
+    font-family: 'Poppins';
+    font-style: normal;
+}
+
+#menus {
+    margin-top: 0px;
+    margin-left: 30px;
+    font-size: large;
+    cursor: pointer;
+}
+
+.search {
+    background-color: #1F1B66;
+    border: 0px;
+    width: 506px;
+    height: 60px;
+    font-size: large;
+}
+
+.fa-magnifying-glass {
+    position: absolute;
+    margin-top: 25px;
+    margin-left: 480px;
+    color: #6C5DD3;
+    font-size: large;
+    cursor: pointer;
+}
+
+.navLeft {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    grid-template: auto;
+}
+
+.loginBtn {
+    width: 135px;
+    height: 60px;
+    color: #E5CCB8;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: #1F1B66;
+    font-size: large;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.signupBtn {
+    margin-left: 20px;
+    width: 135px;
+    height: 60px;
+    color: #131045;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: #F0BBE3;
+    font-size: large;
+    font-weight: 700;
+    cursor: pointer;
+}

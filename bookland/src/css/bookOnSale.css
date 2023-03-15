@@ -1,0 +1,114 @@
+.bookOnSaleContainer {
+    margin: 30px 85px 0px 85px;
+    background: #FFFFFF;
+}
+
+.bookOnSale {
+    width: 353px;
+    height: 75px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 75px;
+
+    color: #131045;
+}
+
+
+.booksSale {
+    height: 465px;
+    margin: 0px 15px;
+    position: relative;
+}
+
+.booksSale img {
+    width: 239px;
+    height: 336px;
+    background: #C4C4C4;
+    border-radius: 6px;
+}
+
+.sale-price {
+    width: 80px;
+    height: 40px;
+    background: #EAA451;
+    border-radius: 0px 6px 6px 0px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 39px;
+    color: #FFFFFF;
+    text-align: center;
+    position: absolute;
+    top: 24px;
+}
+
+.booksSale p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    color: #11142D;
+    margin-top: 18px;
+}
+
+.booksSale span {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #EAA451;
+}
+
+.book-sale-footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+.sale-left {
+    display: flex;
+}
+
+.sale-left p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    color: #EAA451;
+    margin-top: -3px;
+}
+
+.sale-right {
+    display: flex;
+    margin-right:34px
+}
+
+.sale-right p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: right;
+    color: #11142D;
+    margin-top: -6px;
+    margin-right: 5px;
+}
+
+.sale-right span {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: right;
+    text-decoration-line: line-through;
+    color: #AAAAAA;
+    margin-top: -2px;
+}
