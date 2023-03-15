@@ -459,8 +459,7 @@
 }
 
 .banner {
-    height: 997px;
-    background-color: #C4C4C4;
+    height: 797px
 }
 
 .rcmt {
@@ -506,7 +505,6 @@ body {
     width: 313px;
     height: 640.76px;
     margin-right: 10px;
-    background: #8C8;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -556,6 +554,15 @@ body {
     border: 1px solid #EAA451;
 }
 
+.gallery-cell span {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+
 .choose {
     width: 100%;
     height: 320px;
@@ -591,7 +598,7 @@ body {
     line-height: 24px;
     /* identical to box height, or 120% */
 
-
+    margin: 30px 0px 10px 0px;
     /* Dark-01 */
 
     color: #131045;
@@ -634,21 +641,26 @@ body {
 }
 
 .booksSale {
-    width: 20%;
-    height: 200px;
+    width: 239px;
+    height: 465px;
     margin-right: 10px;
     background-color: #8C8;
-    counter-increment: gallery-cell;
 }
 
 /* cell number */
 .booksSale:before {
     display: block;
     text-align: center;
-    content: counter(gallery-cell);
     line-height: 200px;
     font-size: 80px;
     color: white;
+}
+
+.booksSale img {
+    width: 239px;
+    height: 336px;
+    background: #C4C4C4;
+    border-radius: 6px;
 }
 
 .featureProductContainer {
@@ -1081,7 +1093,7 @@ body {
     margin-right: 60px;
 }
 
-.fa-heart {
+#heart {
     color: red;
 }
 
