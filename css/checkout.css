@@ -400,6 +400,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    text-align: center;
 }
 
 .chooseImage {
@@ -437,7 +438,8 @@
     line-height: 19px;
     margin-left: 20px;
 
-}.subscribe {
+}
+.subscribe {
     height: 366px;
     background: #3B2F4A;
     display: flex;
