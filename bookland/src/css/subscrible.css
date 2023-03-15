@@ -1,0 +1,53 @@
+.subscribe {
+    height: 366px;
+    background: #3B2F4A;
+    display: flex;
+}
+
+.subsTitle {
+    height: 366px;
+    margin-left: 90px;
+    display: flex;
+    align-items: center;
+}
+
+.subTit {
+    height: 110px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 55px;
+    color: #FFFFFF;
+}
+
+.searchSubs {
+    display: flex;
+    align-items: center;
+    margin-left: 190px;
+}
+
+.searchSubs input {
+    height: 68px;
+    width: 600px;
+    border-radius: 5px;
+    border: 1px solid #FFFFFF;
+    background-color: #3B2F4A;
+    color: #FFFFFF;
+    padding-right: 166px;
+}
+
+.searchSubs button {
+    width: 166px;
+    height: 68px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+    background: #EAA451;
+    border-radius: 5px;
+    border: 1px solid #FFFFFF;
+    margin-left: -166px;
+}

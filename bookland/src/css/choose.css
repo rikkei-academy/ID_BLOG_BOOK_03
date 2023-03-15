@@ -1,0 +1,54 @@
+.choose {
+    width: 100%;
+    height: 320px;
+    display: flex;
+    background: #FFFFFF;
+
+}
+
+.choose1 {
+    width: 25%;
+    height: 233px;
+    background: #FFFFFF;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.chooseImage {
+    width: 60px;
+    height: 60px;
+
+
+}
+
+.quickDeli {
+    /* width: 146px;
+    height: 24px; */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    /* identical to box height, or 120% */
+
+    margin: 30px 0px 10px 0px;
+    /* Dark-01 */
+
+    color: #131045;
+
+}
+
+.quickDeliInfo {
+    width: 267px;
+    height: 38px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    margin-left: 20px;
+}

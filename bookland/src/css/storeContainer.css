@@ -1,0 +1,45 @@
+.storeContainer {
+    height: 309px;
+    margin: 80px 90px 0px 90px;
+    display: flex;
+}
+
+.storeItem {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    background: #FFFFFF;
+    margin: 0px 5px 0px 5px;
+    align-items: center;
+}
+
+.storeImg {
+    height: 80px;
+    width: 80px;
+}
+
+.storeNumber {
+    width: 181px;
+    height: 72px;
+    margin-top: 34px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 72px;
+    text-align: center;
+    color: #131045;
+}
+
+.storeStt {
+    width: 167px;
+    height: 27px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+
+    color: #535353;
+}

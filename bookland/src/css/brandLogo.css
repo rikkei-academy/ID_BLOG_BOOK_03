@@ -1,0 +1,15 @@
+.brandLogos {
+    display: flex;
+    height: 197px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.clientLogo {
+    width: 80%;
+    height: 60.94px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
